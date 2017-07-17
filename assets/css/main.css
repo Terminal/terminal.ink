@@ -77,3 +77,15 @@ html, body {
     color: #fff;
   }
 }
+
+/* Responsive */
+@media screen and (max-width: 800px) {
+  .center_page img {
+    width: 55vmin;
+  }
+
+  .text {
+    text-align: center;
+    line-height: 0.5em;
+  }
+}
