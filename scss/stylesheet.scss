@@ -6,7 +6,7 @@
 /** ANIMATIONS
 ----------------------------- **/
 
-@keyframes blinker {  
+@keyframes blinker {
 	50% { opacity: 0; }
 }
 
@@ -94,6 +94,13 @@ header {
 
 /** CONTENT
 ----------------------------- **/
+.center_page {
+	width: 100%;
+  padding: 0 50px;
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 section {
 
@@ -120,8 +127,8 @@ section {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		align-items: center; 
-		
+		align-items: center;
+
 		div.brand {
 			width: 50vw;
 			min-height: 50vw;
@@ -138,7 +145,7 @@ section {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		align-items: center; 
+		align-items: center;
 	}
 
 	header div.brand {

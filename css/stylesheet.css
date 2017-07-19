@@ -64,6 +64,14 @@ header {
 
 /** CONTENT
 ----------------------------- **/
+.center_page {
+  width: 100%;
+  padding: 0 50px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
 section {
   text-align: center; }
   section h2 > a {
