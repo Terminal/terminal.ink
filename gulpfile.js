@@ -9,15 +9,15 @@ gulp.task('serve', ['sass'], function() {
         server: "./"
     });
 
-    gulp.watch("scss/*.scss", ['sass']).on('change', browserSync.reload);
+    gulp.watch("assets/scss/*.scss", ['sass']).on('change', browserSync.reload);
     gulp.watch("*.html").on('change', browserSync.reload);
 });
 
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
-    return gulp.src("scss/*.scss")
+    return gulp.src("assets/scss/*.scss")
         .pipe(sass())
-        .pipe(gulp.dest("css"))
+        .pipe(gulp.dest("assets/css"))
         .pipe(browserSync.stream());
 });
 
