@@ -1,4 +1,4 @@
-<p style="text-align:center;"><img src="http://i.imgur.com/uGEYjtT.png"></p>
+<p style="text-align:center;"><img src="http://i.imgur.com/d9xaLI6.png"></p>
 
 <div align="center">
 	<p>A group for Discord bot developers.</p>
