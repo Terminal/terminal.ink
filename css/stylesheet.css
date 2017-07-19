@@ -9,11 +9,8 @@
 
 /** NATIVE
 ----------------------------- **/
-html, body {
-  height: 100%; }
-
 body {
-  background: #000000;
+  background: #181818;
   color: #FFFFFF;
   font-family: 'Roboto Mono', 'Roboto', sans-serif;
   display: flex;
@@ -21,17 +18,21 @@ body {
   justify-content: center;
   align-items: center; }
 
-/** BODY
+/** HEADER
 ----------------------------- **/
 header {
-  max-width: 380px;
-  text-align: center; }
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
   header div.brand {
-    height: 340px;
-    width: 340px;
+    width: 300px;
+    min-height: 300px;
     position: relative;
     border-radius: 20px;
-    background: #000000;
+    margin: 5%;
+    background: #181818;
     display: flex; }
     header div.brand svg {
       width: 64px;
@@ -58,9 +59,12 @@ header {
     font-size: 32pt; }
     header h1 label {
       animation: blinker 2s step-end infinite; }
+  header h1, header h2 {
+    margin: .5rem; }
 
+/** CONTENT
+----------------------------- **/
 section {
-  max-width: 380px;
   text-align: center; }
   section h2 > a {
     text-decoration: none;
@@ -68,7 +72,8 @@ section {
   section h2 > a label {
     border-bottom: 2px solid #FFFFFF;
     padding-bottom: .1rem;
-    line-height: 3rem; }
+    line-height: 3rem;
+    cursor: pointer; }
 
 /** SMARTPHONES
 ----------------------------- **/
@@ -80,12 +85,16 @@ section {
     align-items: center; }
     header div.brand {
       width: 50vw;
-      height: 50vw; }
-      header div.brand svg {
-        transform: scale(2vw); } }
+      min-height: 50vw; } }
 
 /** PRE-SMARTPHONE
 ----------------------------- **/
 @media screen and (max-width: 400px) {
+  body, html {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
   header div.brand {
     display: none; } }
