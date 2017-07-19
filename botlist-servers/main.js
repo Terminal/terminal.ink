@@ -117,7 +117,7 @@ onmousedown = e => {
 					ogdoms = doms;
 					loadservers = (start, count) => doms.splice(start, count).map(guild => $(guild).insertBefore('.servers #loader'));
 					BLS.controller = new ScrollMagic.Controller();
-					document.querySelector(".servers").innerHTML += `<div id="loader"></div>`
+					document.querySelector(".servers").innerHTML += `<div id="loader"><span class="loading-text"></span></div>`
 					BLS.scene = new ScrollMagic.Scene({triggerElement: ".servers #loader", triggerHook: "onEnter"})
 					.addTo(BLS.controller)
 					.on("enter", function (e) {
