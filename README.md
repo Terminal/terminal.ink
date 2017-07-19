@@ -1,6 +1,8 @@
 <p style="text-align:center;"><img src="http://i.imgur.com/uGEYjtT.png"></p>
 
-<p style="text-align:center;">A group for Discord bot developers.</p>
+<div align="center">
+	<p>A group for Discord bot developers.</p>
+</div>
 
 # Installation
 
@@ -10,7 +12,7 @@
 $ npm install gulp-cli --global
 ```
 
-### 2. Install gulp & dependencies:
+### 2. Install gulp and dependencies:
 ```sh
 $ npm install gulp gulp-jade gulp-sass
 ```
