@@ -1,0 +1,90 @@
+/* Index page */
+html, body {
+  margin: 0;
+  text-align: center;
+  font-family: Product Sans, sans-serif;
+  color: #fff;
+  background-color: #181818; }
+
+.cover {
+  height: 100%;
+  width: 100%; }
+  .cover .center_page {
+    animation: enter-page 1s ease-in-out;
+    width: 100%;
+    padding: 0 50px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Button */ }
+    .cover .center_page img {
+      width: 40vmin;
+      margin-bottom: -10vmin; }
+    .cover .center_page .text {
+      line-height: 1.75em;
+      display: inline-block;
+      text-align: left;
+      margin-left: -20px; }
+      .cover .center_page .text .title {
+        font-size: 7vmin; }
+      .cover .center_page .text .undertitle {
+        font-size: 5vmin; }
+    .cover .center_page .cursor {
+      animation: 1s blink step-end infinite; }
+    .cover .center_page .buttons {
+      margin-top: 0.5em;
+      /* Buttons */ }
+      .cover .center_page .buttons .btn, .cover .center_page .buttons .btn:hover {
+        transition: all 300ms ease; }
+      .cover .center_page .buttons .btn:hover {
+        transform: translateY(-0.4em);
+        filter: brightness(50%); }
+      .cover .center_page .buttons .btn {
+        display: inline-block;
+        height: 38px;
+        padding: 0 30px;
+        margin: 0.5em;
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 38px;
+        text-decoration: none;
+        white-space: nowrap;
+        background-color: transparent;
+        border-radius: 5px;
+        cursor: pointer;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif; }
+      .cover .center_page .buttons .btn.github {
+        background-color: #24292E; }
+      .cover .center_page .buttons .btn.discord {
+        background-color: #7289da; }
+      .cover .center_page .buttons .btn.botlist {
+        background-color: #e74c3c; }
+      .cover .center_page .buttons .btn.error {
+        background-color: #e74c3c; }
+
+/* Keyframes */
+@keyframes enter-page {
+  from {
+    transform: translate(-50%, 40%);
+    opacity: 0; }
+  100% {
+    transform: translate(-50%, -50%);
+    opacity: 1; } }
+
+@keyframes blink {
+  from, to {
+    color: transparent; }
+  50% {
+    color: #fff; } }
+
+/* Responsive (Phone size) */
+@media screen and (max-width: 800px) {
+  .center_page img {
+    width: 55vmin; }
+  .text {
+    text-align: center;
+    line-height: 0.5em; } }

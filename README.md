@@ -1,7 +1,6 @@
-<p style="text-align:center;"><img src="http://i.imgur.com/d9xaLI6.png"></p>
-
 <div align="center">
-	<p>A group for Discord bot developers.</p>
+<p style="text-align:center;"><img src="http://i.imgur.com/d9xaLI6.png" width="300px"></p>
+	<p><b>Terminal</b><br>A community for discord bot and library developers.</p>
 </div>
 
 # Installation
@@ -31,4 +30,4 @@ $ gulp
 
 # License
 
-A copy of the MIT license can be found in `LICENSE.md`
+A copy of the MIT license can be found in `LICENSE`
