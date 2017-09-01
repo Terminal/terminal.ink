@@ -2,7 +2,7 @@
 html, body {
   margin: 0;
   text-align: center;
-  font-family: Product Sans, sans-serif;
+  font-family: 'Product Sans', sans-serif;
   color: #fff;
   background-color: #181818; }
 
@@ -60,11 +60,13 @@ html, body {
       .cover .center_page .buttons .btn.github {
         background-color: #24292E; }
       .cover .center_page .buttons .btn.discord {
-        background-color: #7289da; }
+        background-color: #7289DA; }
+      .cover .center_page .buttons .btn.ls {
+        background-color: #03A9F4; }
       .cover .center_page .buttons .btn.botlist {
-        background-color: #e74c3c; }
+        background-color: #E74C3C; }
       .cover .center_page .buttons .btn.error {
-        background-color: #e74c3c; }
+        background-color: #E74C3C; }
 
 /* Keyframes */
 @keyframes enter-page {
