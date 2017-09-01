@@ -1,0 +1,25 @@
+{
+  "name": "terminal.ink",
+  "version": "1.0.0",
+  "description": "A community for discord bot and library developers.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terminal/terminal.ink.git"
+  },
+  "author": "AlexFlipnote",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Terminal/terminal.ink/issues"
+  },
+  "homepage": "https://github.com/Terminal/terminal.ink#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
