@@ -2,7 +2,7 @@
 html, body {
   margin: 0;
   text-align: center;
-  font-family: Product Sans, sans-serif;
+  font-family: 'Product Sans', sans-serif;
   color: #fff;
   background-color: #181818;
 }
@@ -62,9 +62,10 @@ html, body {
 
 			/* Buttons */
 			.btn.github { background-color: #24292E; }
-			.btn.discord { background-color: #7289da; }
-			.btn.botlist { background-color: #e74c3c; }
-			.btn.error { background-color: #e74c3c; }
+			.btn.discord { background-color: #7289DA; }
+			.btn.ls { background-color: #03A9F4; }
+			.btn.botlist { background-color: #E74C3C; }
+			.btn.error { background-color: #E74C3C; }
 		}
 	}
 }
