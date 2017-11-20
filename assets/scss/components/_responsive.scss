@@ -1,0 +1,27 @@
+@media screen and (max-width: 800px) {
+  .center-page {
+    img { width: 53vmin; }
+
+    .text {
+      display: block;
+      line-height: .5em;
+      margin-left: 0;
+      text-align: center;
+
+      .title, .undertitle, span {
+        font-size: 24px;
+      }
+
+      .undertitle { margin-top: 0;}
+    }
+  }
+
+  .buttons .btn {
+    align-items: center;
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    padding: 30px 0;
+    text-align: center;
+  }
+}
