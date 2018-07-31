@@ -4,14 +4,3 @@
 }
 
 .cursor { animation: 1s blink step-end infinite; }
-
-img.image-title {
-  margin-bottom: -10vmin;
-  width: 40vmin;
-}
-
-.me-custom {
-  display: inline-block;
-  margin-left: -20px;
-  text-align: left;
-}
